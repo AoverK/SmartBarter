@@ -38,7 +38,7 @@ import {
             <HStack>
               <Logo />
             </HStack>
-            <Box width="full" mx="8" display={{ md: 'flex', sm: 'none' }}>
+            <Box width="full" mx="8" display={{ base: 'none', md: 'flex', sm: 'none' }}>
               <SearchInput />
             </Box>
 

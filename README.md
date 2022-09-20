@@ -3,7 +3,7 @@ In this guide you will learn about Smart Barter https://www.smartbarter.xyz
 
 This project is a submission as part of the Web3athon Hackathon
 
-**Presentation ** 
+**Presentation**  
 [Slides](https://docs.google.com/presentation/d/1zgutTxJ1QJ6d0pdmblrANuQLYHpgmUiVlqhFaGbbU4c/edit?usp=sharing)  
 [Video](https://www.loom.com/share/c0a8aa7234d446eab604de0fc04725d6)  
 
@@ -39,7 +39,7 @@ When looking to buy goods and services from individuals and businesses online pe
 ## Who
 People and businesses all over the world need a solution for exchanging value for value. It might show up as a farmer accepting a bushel of carrots in exchange for 10 pounds of cabbage. It might show up as an artist exchanging graphic design services in return for a car repair from a mechanic. 
 
-## Why
+## Why  
 The purpose of technology and blockchains is to help account for the decentralized, local and borderless way that commerce takes place. 
 
 ## Name/Description/How
