@@ -1,16 +1,5 @@
-# Smart Barter Techology Architecture
+# Smart Barter Design, Branding and UI/UX
 
-**Domain**
-[Growthipedia Hosting](https://hosting.growthipedia.com)
+**Figma**
+[SmartBarter Project Board](https://www.figma.com/file/ph8z7gtZi82XeBeSsYjq4u/SmartBarter.xyz?node-id=0%3A1)
 
-**DNS**
-AWS Route 53
-
-**Web Hosting**
-Vercel
-
-**Backend API**
-Google Firebase
-
-**Design UI/UX**
-Figma

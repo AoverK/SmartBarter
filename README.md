@@ -14,6 +14,10 @@ Figma
 Chakra UI Pro
 NextJS
 Vercel
+Polkadot
+Moonbeam
+Foundry
+Algolia
 
 # About Smart Barter
 The main theme of this Web3athon submission is shared below.
