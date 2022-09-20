@@ -3,6 +3,10 @@ In this guide you will learn about Smart Barter https://www.smartbarter.xyz
 
 This project is a submission as part of the Web3athon Hackathon
 
+Presentation
+[Slides](https://docs.google.com/presentation/d/1zgutTxJ1QJ6d0pdmblrANuQLYHpgmUiVlqhFaGbbU4c/edit?usp=sharing)
+[Video](https://www.loom.com/share/c0a8aa7234d446eab604de0fc04725d6)
+
 [Web3athon Website](https://web3athon.xyz/)
 [Web3athon Notion](https://project-cradl.notion.site/Welcome-to-Web3athon-e0b17fe0a41b441fb33e6154adb5795e)
 
