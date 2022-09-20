@@ -1,4 +1,4 @@
-# Smart Barter Technology Architecture
+# Smart Barter Techology Architecture
 
 **Domain**
 [Growthipedia Hosting](https://hosting.growthipedia.com)
@@ -14,12 +14,3 @@ Google Firebase
 
 **Design UI/UX**
 Figma
-
-**Search**
-Algolia
-
-**Blockchain**
-Polkadot
-
-**Protocol**
-Moonbeam
