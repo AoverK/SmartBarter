@@ -1,25 +1,25 @@
 # Smart Barter Technology Architecture
 
-**Domain**
+**Domain**  
 [Growthipedia Hosting](https://hosting.growthipedia.com)
 
-**DNS**
-AWS Route 53
+**DNS**  
+AWS Route 53  
 
-**Web Hosting**
+**Web Hosting**  
 Vercel
 
-**Backend API**
+**Backend API**  
 Google Firebase
 
-**Design UI/UX**
+**Design UI/UX**  
 Figma
 
-**Search**
+**Search**  
 Algolia
 
-**Blockchain**
+**Blockchain**  
 Polkadot
 
-**Protocol**
+**Protocol**  
 Moonbeam

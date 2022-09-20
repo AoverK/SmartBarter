@@ -3,25 +3,27 @@ In this guide you will learn about Smart Barter https://www.smartbarter.xyz
 
 This project is a submission as part of the Web3athon Hackathon
 
-Presentation
-[Slides](https://docs.google.com/presentation/d/1zgutTxJ1QJ6d0pdmblrANuQLYHpgmUiVlqhFaGbbU4c/edit?usp=sharing)
-[Video](https://www.loom.com/share/c0a8aa7234d446eab604de0fc04725d6)
+**Presentation ** 
+[Slides](https://docs.google.com/presentation/d/1zgutTxJ1QJ6d0pdmblrANuQLYHpgmUiVlqhFaGbbU4c/edit?usp=sharing)  
+[Video](https://www.loom.com/share/c0a8aa7234d446eab604de0fc04725d6)  
 
-[Web3athon Website](https://web3athon.xyz/)
+
+**Web3Athon Info**  
+[Web3athon Website](https://web3athon.xyz/)  
 [Web3athon Notion](https://project-cradl.notion.site/Welcome-to-Web3athon-e0b17fe0a41b441fb33e6154adb5795e)
 
-**Repo Folders**
+**Repo Folders**  
 Web App: smart-barter-app-web
 
-**Built With**
-Figma
-Chakra UI Pro
-NextJS
-Vercel
-Polkadot
-Moonbeam
-Foundry
-Algolia
+**Built With**  
+Figma  
+Chakra UI Pro  
+NextJS  
+Vercel  
+Polkadot  
+Moonbeam  
+Foundry  
+Algolia  
 
 # About Smart Barter
 The main theme of this Web3athon submission is shared below.
@@ -46,7 +48,7 @@ The purpose of technology and blockchains is to help account for the decentraliz
 
 ## Contact
 
-[Twitter](https://twitter.com/AoverK)
-[Telegram](https://t.me/AoverK)
-[Website](https://www.aoverk.com)
-[Youtube](https://www.youtube.com/channel/UChJw4bAsxbuQIA8D3WMyslA)
+[Twitter](https://twitter.com/AoverK)  
+[Telegram](https://t.me/AoverK)  
+[Website](https://www.aoverk.com)  
+[Youtube](https://www.youtube.com/channel/UChJw4bAsxbuQIA8D3WMyslA)  
