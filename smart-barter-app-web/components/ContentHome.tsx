@@ -22,10 +22,10 @@ export const ContentHome = () => (
         <Heading size={useBreakpointValue({ base: 'xs', lg: 'sm' })} fontWeight="medium" >
           Sell a Product or Service
         </Heading>
-        <Text color="muted">Click the create button to add a listing</Text>
+        <Text color="muted">Click the <strong>Create A Listing</strong> button to create a listing</Text>
       </Stack>
       <Stack direction="row" spacing="3">        
-        <Button variant="primary" leftIcon={<FiPlusCircle fontSize="1.25rem" />}>Create</Button>
+        <Button variant="primary" leftIcon={<FiPlusCircle fontSize="1.25rem" />}>Create A Listing</Button>
       </Stack>
     </Stack>
     <Stack spacing={{ base: '5', lg: '6' }}>
