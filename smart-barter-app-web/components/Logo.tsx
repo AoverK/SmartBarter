@@ -34,5 +34,4 @@ export const Logo = (props: HTMLChakraProps<'svg'>) => (
 </clipPath>
 </defs>
 </svg>
-
 )

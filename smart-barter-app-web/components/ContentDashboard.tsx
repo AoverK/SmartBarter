@@ -16,10 +16,10 @@ import { HomeHero } from './HomeHero'
 export const ContentHome = () => (
   
   <Stack spacing={{ base: '8', lg: '6' }}>
-    <HomeHero />
-    <Stack spacing="4" direction={{ base: 'column', lg: 'row' }} justify="space-between" >
-      <Stack spacing="1" >
-        <Heading size={useBreakpointValue({ base: 'xs', lg: 'sm' })} fontWeight="medium" >
+    <HomeHero/>
+    <Stack spacing="4" direction={{ base: 'column', lg: 'row' }} justify="space-between">
+      <Stack spacing="1">
+        <Heading size={useBreakpointValue({ base: 'xs', lg: 'sm' })} fontWeight="medium">
           Sell a Product or Service
         </Heading>
         <Text color="muted">Click the create button to add a listing</Text>
