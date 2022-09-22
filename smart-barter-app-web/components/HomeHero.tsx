@@ -48,7 +48,7 @@ import * as Logos from './Brands'
           </Text>
           <SimpleGrid
             mt="8"
-            columns={{ base: 1, md: 3, lg: 6 }}
+            columns={{ base: 1, sm: 2, md: 3, lg: 6 }}
             color="gray.500"
             alignItems="center"
             spacing={{ base: '12', lg: '24' }}
