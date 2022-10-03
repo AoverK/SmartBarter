@@ -32,6 +32,7 @@ export const ContentHome = () => (
       <Heading size={useBreakpointValue({ base: 'xs', lg: 'sm' })} fontWeight="medium" >
         Products
       </Heading>
+      <Text color="muted">Recent listed products to buy or barter</Text>
       <SimpleGrid columns={{ base: 1, md: 4 }} gap="6">
         <Card />
         <Card />
@@ -44,6 +45,7 @@ export const ContentHome = () => (
       <Heading size={useBreakpointValue({ base: 'xs', lg: 'sm' })} fontWeight="medium" >
         Services
       </Heading>
+      <Text color="muted">Popular services to buy or barter</Text>
       <SimpleGrid columns={{ base: 1, md: 4 }} gap="6">
         <Card />
         <Card />

@@ -12,14 +12,14 @@ import {
     useBreakpointValue,
   } from '@chakra-ui/react'
   import * as React from 'react'
-  import { Logo } from './Logo'
+  import * as Logos from './Logo'
   import { GoogleIcon } from './ProviderIcons'
   
   export const RegistrationForm = () => (
     <Container maxW="md" py={{ base: '12', md: '24' }}>
       <Stack spacing="8">
         <Stack spacing="6" align="center">
-          <Logo />
+          <Logos.ColorLogo />
           <Stack spacing="3" textAlign="center">
             <Heading size={useBreakpointValue({ base: 'xs', md: 'sm' })}>Create an account</Heading>
             <Text color="muted">Start making your dreams come true</Text>
