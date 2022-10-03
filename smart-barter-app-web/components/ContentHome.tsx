@@ -28,20 +28,39 @@ export const ContentHome = () => (
         <Button variant="primary" leftIcon={<FiPlusCircle fontSize="1.25rem" />}>Create A Listing</Button>
       </Stack>
     </Stack>
-    <Stack spacing={{ base: '5', lg: '6' }}>
-      <SimpleGrid columns={{ base: 1, md: 3 }} gap="6">
+    <Stack pb={6} spacing={{ base: '5', lg: '6' }}>
+      <Heading size={useBreakpointValue({ base: 'xs', lg: 'sm' })} fontWeight="medium" >
+        Products
+      </Heading>
+      <SimpleGrid columns={{ base: 1, md: 4 }} gap="6">
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+      </SimpleGrid>
+      
+    </Stack>
+    <Stack pb={6} spacing={{ base: '5', lg: '6' }}>
+      <Heading size={useBreakpointValue({ base: 'xs', lg: 'sm' })} fontWeight="medium" >
+        Services
+      </Heading>
+      <SimpleGrid columns={{ base: 1, md: 4 }} gap="6">
+        <Card />
         <Card />
         <Card />
         <Card />
       </SimpleGrid>
     </Stack>
-    <Card minH="xs" />
+    <Stack direction="row" spacing="3" textAlign="center" justifyContent="center">
+      <Button variant="secondary">View All Products and Services</Button>
+    </Stack>
   </Stack>
 )
 
 const Card = (props: BoxProps) => (
   <Box
-    minH="36"
+    w="280"
+    h="380"
     bg="bg-surface"
     boxShadow={useColorModeValue('sm', 'sm-dark')}
     borderRadius="lg"
