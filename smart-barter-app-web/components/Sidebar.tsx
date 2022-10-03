@@ -25,7 +25,7 @@ import {
 } from 'react-icons/fi'
 import { FaFlagCheckered } from 'react-icons/fa'
 import { BsShop } from 'react-icons/bs'
-import { Logo } from './Logo'
+import * as Logo from './Logo'
 import { NavButton } from './NavButton'
 import { UserProfile } from './UserProfile'
 
@@ -42,7 +42,7 @@ export const Sidebar = () => (
     >
       <Stack justify="space-between" spacing="1">
         <Stack spacing={{ base: '5', sm: '6' }} shouldWrapChildren>
-          <Logo />
+          <Logo.ColorLogo />
           <InputGroup>
             <InputLeftElement pointerEvents="none">
               <Icon as={FiSearch} color="muted" boxSize="5" />
