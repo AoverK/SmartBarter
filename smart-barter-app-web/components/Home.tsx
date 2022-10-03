@@ -3,6 +3,7 @@ import { Header } from './Header'
 import { ContentHome } from './ContentHome'
 import { NavbarUnauth } from './NavbarUnauth'
 import { FooterUnauth } from './FooterUnauth'
+import { HomeMobileAppSection } from './HomeMobileAppSection'
 
 export const Home = () => (  
   
@@ -12,6 +13,7 @@ export const Home = () => (
     <Container pt={{ base: '8', lg: '12' }} pb={{ base: '12', lg: '24' }}>
       <ContentHome />
     </Container>
-    <FooterUnauth/>
+    <HomeMobileAppSection />
+    <FooterUnauth />
   </Box>
 )

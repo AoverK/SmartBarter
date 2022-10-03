@@ -31,7 +31,7 @@ export const FooterUnauth = () => (
         <SimpleGrid columns={{ base: 2, md: 4 }} gap="8" width={{ base: 'full', lg: 'auto' }}>
           {links.map((group, idx) => (
             <Stack key={idx} spacing="4" minW={{ lg: '40' }}>
-              <Text fontSize="sm" fontWeight="semibold" color="on-accent-subtle">
+              <Text fontSize="xl" fontWeight="semibold" color="on-accent-subtle">
                 {group.title}
               </Text>
               <Stack spacing="3" shouldWrapChildren>

@@ -7,6 +7,7 @@ import {
     Text,
     SimpleGrid,
     VStack,
+    useBreakpointValue,
     useColorModeValue as mode,
   } from "@chakra-ui/react";
   
@@ -18,11 +19,11 @@ import * as Logos from './Brands'
         <Center p={4} minHeight="30vh">
           <VStack>
             <Container maxW="container.md" textAlign="center">
-              <Heading size="2xl" mb={4} color="gray.700">
+              <Heading size={useBreakpointValue({ base: 'md', md: 'xl', lg: '2xl' })} mb={4} color="gray.700">
               Buy, sell or trade. Almost anything.
               </Heading>
   
-              <Text fontSize="xl" color="gray.500">
+              <Text fontSize={useBreakpointValue({ base: 'md', md: 'md', lg: 'xl' })} color="gray.500">
               SmartBarter brings together global buyers, sellers and traders to make is easier to exchange real world good and services 24/7. We leverage traditional payments and crypto to benefit from fast transactions and cross border transactions
               </Text>
   

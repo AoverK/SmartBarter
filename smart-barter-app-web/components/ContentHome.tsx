@@ -29,24 +29,27 @@ export const ContentHome = () => (
       </Stack>
     </Stack>
     <Stack pb={6} spacing={{ base: '5', lg: '6' }}>
-      <Heading size={useBreakpointValue({ base: 'xs', lg: 'sm' })} fontWeight="medium" >
-        Products
-      </Heading>
-      <Text color="muted">Recent listed products to buy or barter</Text>
-      <SimpleGrid columns={{ base: 1, md: 4 }} gap="6">
+      <Stack spacing="1" >
+        <Heading size={useBreakpointValue({ base: 'xs', lg: 'sm' })} as='h2' fontSize={useBreakpointValue({ base: 'lg', md: 'xl', lg: '2xl' })} fontWeight="medium" >
+          Products
+        </Heading>
+        <Text color="muted" fontSize={useBreakpointValue({ base: 'sm', lg: 'md' })}>Recently listed products to buy or barter</Text>
+      </Stack>
+      <SimpleGrid columns={{ base: 1, md: 2, lg: 4 }} gap="6">
         <Card />
         <Card />
         <Card />
         <Card />
       </SimpleGrid>
-      
     </Stack>
     <Stack pb={6} spacing={{ base: '5', lg: '6' }}>
-      <Heading size={useBreakpointValue({ base: 'xs', lg: 'sm' })} fontWeight="medium" >
-        Services
-      </Heading>
-      <Text color="muted">Popular services to buy or barter</Text>
-      <SimpleGrid columns={{ base: 1, md: 4 }} gap="6">
+      <Stack spacing="1" >
+        <Heading size={useBreakpointValue({ base: 'xs', lg: 'sm' })} as='h2' fontSize={useBreakpointValue({ base: 'lg', md: 'xl', lg: '2xl' })} fontWeight="medium" >
+          Services
+        </Heading>
+        <Text color="muted" fontSize={useBreakpointValue({ base: 'sm', lg: 'md' })}>Popular services to buy or barter</Text>
+      </Stack>
+      <SimpleGrid columns={{ base: 1, md: 2, lg: 4 }} gap="6">
         <Card />
         <Card />
         <Card />
