@@ -88,8 +88,8 @@ export const ContentHome = () => (
                 <Stack>
                   <Text
                     pt="1"
-                    minWidth="135px"
-                    maxWidth="135px"
+                    minWidth="140px"
+                    maxWidth="140px"
                     fontSize={21}
                     fontWeight="medium"
                     color="muted"
@@ -175,8 +175,8 @@ export const ContentHome = () => (
                 <Stack>
                   <Text
                     pt="1"
-                    minWidth="135px"
-                    maxWidth="135px"
+                    minWidth="140px"
+                    maxWidth="140px"
                     fontSize={21}
                     fontWeight="medium"
                     color="muted"
@@ -264,8 +264,8 @@ export const ContentHome = () => (
                 <Stack>
                   <Text
                     pt="1"
-                    minWidth="135px"
-                    maxWidth="135px"
+                    minWidth="140px"
+                    maxWidth="140px"
                     fontSize={21}
                     fontWeight="medium"
                     color="muted"
@@ -353,8 +353,8 @@ export const ContentHome = () => (
                 <Stack>
                   <Text
                     pt="1"
-                    minWidth="135px"
-                    maxWidth="135px"
+                    minWidth="140px"
+                    maxWidth="140px"
                     fontSize={21}
                     fontWeight="medium"
                     color="muted"
