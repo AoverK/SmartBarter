@@ -60,7 +60,7 @@ export const ContentHome = () => (
             </Box>
             <Box
             >
-              <Stack pl="4" pr="4" pt="1" pb="2" direction="row">
+              <Stack pl="3" pr="3" pt="1" pb="2" direction="row">
                 <Stack>
                   <Text
                     minWidth="185px"
@@ -84,7 +84,7 @@ export const ContentHome = () => (
 
                 </Stack>
               </Stack>
-              <Stack pl="4" pr="4" pb="2" direction="row">
+              <Stack pl="3" pr="3" pb="2" direction="row">
                 <Stack>
                   <Text
                     pt="1"
@@ -146,7 +146,7 @@ export const ContentHome = () => (
             </Box>
             <Box
             >
-              <Stack pl="4" pr="4" pt="1" pb="2" direction="row">
+              <Stack pl="3" pr="3" pt="1" pb="2" direction="row">
                 <Stack>
                   <Text
                     minWidth="185px"
@@ -171,7 +171,7 @@ export const ContentHome = () => (
                 </Stack>
 
               </Stack>
-              <Stack pl="4" pr="4" pb="2" direction="row">
+              <Stack pl="3" pr="3" pb="2" direction="row">
                 <Stack>
                   <Text
                     pt="1"
@@ -193,7 +193,7 @@ export const ContentHome = () => (
                     fontSize={11}
                   
                   >
-                    13,934.29 DOT
+                    2,148.12 DOT
                   </Text>
                   <Text
                     color="muted"
@@ -235,7 +235,7 @@ export const ContentHome = () => (
             </Box>
             <Box
             >
-              <Stack pl="4" pr="4" pt="1" pb="2" direction="row">
+              <Stack pl="3" pr="3" pt="1" pb="2" direction="row">
                 <Stack>
                   <Text
                     minWidth="185px"
@@ -260,7 +260,7 @@ export const ContentHome = () => (
                 </Stack>
 
               </Stack>
-              <Stack pl="4" pr="4" pb="2" direction="row">
+              <Stack pl="3" pr="3" pb="2" direction="row">
                 <Stack>
                   <Text
                     pt="1"
@@ -324,7 +324,7 @@ export const ContentHome = () => (
             </Box>
             <Box
             >
-              <Stack pl="4" pr="4" pt="1" pb="2" direction="row">
+              <Stack pl="3" pr="3" pt="1" pb="2" direction="row">
                 <Stack>
                   <Text
                     minWidth="185px"
@@ -349,7 +349,7 @@ export const ContentHome = () => (
                 </Stack>
 
               </Stack>
-              <Stack pl="4" pr="4" pb="2" direction="row">
+              <Stack pl="3" pr="3" pb="2" direction="row">
                 <Stack>
                   <Text
                     pt="1"
