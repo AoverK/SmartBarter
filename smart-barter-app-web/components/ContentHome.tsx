@@ -22,7 +22,7 @@ export const ContentHome = () => (
     <Center>
       <Stack spacing="4" bg="#00000" p="5" m="15" w="800px" boxShadow={useColorModeValue('sm', 'sm-dark')} direction={{ base: 'column', lg: 'row' }} justify="space-between" >    
         <Stack spacing="1" >
-          <Heading size={useBreakpointValue({ base: 'xs', lg: 'sm' })} fontWeight="medium" >
+          <Heading size={useBreakpointValue({ base: 'xs', lg: 'sm' })} fontWeight="medium">
             Sell a Product or Service
           </Heading>
           <Text color="muted">Click the <strong>Create A Listing</strong> button to create a listing</Text>
@@ -40,6 +40,9 @@ export const ContentHome = () => (
         </Heading>
         <Text color="muted" fontSize={useBreakpointValue({ base: 'sm', lg: 'md' })}>Recently listed products to buy or barter</Text>
       </Stack>
+      <Center>
+
+      
       <SimpleGrid columns={{ base: 1, md: 2, lg: 4 }} gap="6">
         <Box
           w="250px"
@@ -252,6 +255,7 @@ export const ContentHome = () => (
           </Box>
         </Box>
       </SimpleGrid>
+      </Center>
     </Stack>
     {/* <Stack pb={6} spacing={{ base: '5', lg: '6' }}>
       <Stack spacing="1" >
