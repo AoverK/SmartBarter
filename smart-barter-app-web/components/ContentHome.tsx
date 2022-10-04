@@ -41,220 +41,361 @@ export const ContentHome = () => (
         <Text color="muted" fontSize={useBreakpointValue({ base: 'sm', lg: 'md' })}>Recently listed products to buy or barter</Text>
       </Stack>
       <Center>
+        <SimpleGrid columns={{ base: 1, md: 2, lg: 4 }} gap="6">
+          <Box
+            w="250px"
+            h="375px"
+            bg="bg-surface"
+            boxShadow={useColorModeValue('sm', 'sm-dark')}
+            borderRadius="lg"
+          >
+            <Box>
+              <Image
+                htmlWidth='250px'
+                htmlHeight='210px'
+                objectFit='cover'
+                src='/framed_print_001.png'
+                alt='Framed Print'
+              />
+            </Box>
+            <Box
+            >
+              <Stack pl="4" pr="4" pt="1" pb="2" direction="row">
+                <Stack>
+                  <Text
+                    minWidth="185px"
+                    maxWidth="185px"
+                    minHeight="50"
+                    maxHeight="50"
+                    fontSize={14}
+                  
+                  >
+                    Framed print 8in x 11.5in
+                  </Text>
+                </Stack>
+                <Stack>
+                  <Image
+                  htmlWidth='25px'
+                  htmlHeight='25px'
+                  objectFit='cover'
+                  src='/heart_001.png'
+                  alt='Framed Print'
+                  />
 
-      
-      <SimpleGrid columns={{ base: 1, md: 2, lg: 4 }} gap="6">
-        <Box
-          w="250px"
-          h="360px"
-          bg="bg-surface"
-          boxShadow={useColorModeValue('sm', 'sm-dark')}
-          borderRadius="lg"
-        >
-          <Box>
-            <Image
-              htmlWidth='250px'
-              htmlHeight='210'
-              objectFit='cover'
-              src='/framed_print_001.png'
-              alt='Framed Print'
-            />
+                </Stack>
+              </Stack>
+              <Stack pl="4" pr="4" pb="2" direction="row">
+                <Stack>
+                  <Text
+                    pt="1"
+                    minWidth="135px"
+                    maxWidth="135px"
+                    fontSize={21}
+                    fontWeight="medium"
+                    color="muted"
+                    
+                  
+                  >
+                    $100,000 USD
+                  </Text>
+                </Stack>
+                <Stack>
+                <Stack>
+                  <Text
+                    color="muted"
+                    fontSize={11}
+                  
+                  >
+                    15,442 DOT
+                  </Text>
+                  <Text
+                    color="muted"
+                    fontSize={11}
+                  
+                  >
+                    73.86 ETH
+                  </Text>
+                </Stack>
+
+                </Stack>
+              </Stack>
+              <Center >
+                <Stack direction="row" justifyContent="space-between">
+                  <Button variant="outline" width={100} color="#2B6CB0" borderColor={"#2B6CB0"} borderWidth="2px">Barter</Button>
+                  <Button variant="primary" width={100}>Buy Now</Button>
+                </Stack>
+              </Center>
+
+            </Box>
           </Box>
           <Box
+            w="250px"
+            h="375px"
+            bg="bg-surface"
+            boxShadow={useColorModeValue('sm', 'sm-dark')}
+            borderRadius="lg"
           >
-            <Stack p="5" direction="row">
-              <Stack>
-                <Text
-                  h="50"
-                  maxWidth="200"
-                  maxHeight="50"
-                
-                >
-                  Framed print 8in x 11.5in 
-
-                </Text>
-              </Stack>
-              <Stack>
-                <Image
-                htmlWidth='25px'
-                htmlHeight='25px'
+            <Box>
+              <Image
+                htmlWidth='250px'
+                htmlHeight='210px'
                 objectFit='cover'
-                src='/heart_001.png'
+                src='/moonbird_001.png'
                 alt='Framed Print'
-                />
+              />
+            </Box>
+            <Box
+            >
+              <Stack pl="4" pr="4" pt="1" pb="2" direction="row">
+                <Stack>
+                  <Text
+                    minWidth="185px"
+                    maxWidth="185px"
+                    minHeight="50"
+                    maxHeight="50"
+                    fontSize={14}
+                  >
+                    Proof Collective Moonbirds #956 
+
+                  </Text>
+                </Stack>
+                <Stack>
+                  <Image
+                  htmlWidth='25px'
+                  htmlHeight='25px'
+                  objectFit='cover'
+                  src='/heart_001.png'
+                  alt='Framed Print'
+                  />
+
+                </Stack>
 
               </Stack>
+              <Stack pl="4" pr="4" pb="2" direction="row">
+                <Stack>
+                  <Text
+                    pt="1"
+                    minWidth="135px"
+                    maxWidth="135px"
+                    fontSize={21}
+                    fontWeight="medium"
+                    color="muted"
+                    
+                  
+                  >
+                    $13,935 USD
+                  </Text>
+                </Stack>
+                <Stack>
+                <Stack>
+                  <Text
+                    color="muted"
+                    fontSize={11}
+                  
+                  >
+                    13,934.29 DOT
+                  </Text>
+                  <Text
+                    color="muted"
+                    fontSize={11}
+                  
+                  >
+                    10.49 ETH
+                  </Text>
+                </Stack>
 
-            </Stack>
-            <Center >
-              <Stack direction="row" justifyContent="space-between">
-                <Button variant="outline" width={100} color="#2B6CB0" borderColor={"#2B6CB0"} borderWidth="2px">Barter</Button>
+                </Stack>
+              </Stack>
+              <Center >
+                <Stack direction="row" justifyContent="space-between">
+                  <Button variant="outline" width={100} color="#2B6CB0" borderColor={"#2B6CB0"} borderWidth="2px">Barter</Button>
                 <Button variant="primary" width={100}>Buy Now</Button>
               </Stack>
-            </Center>
 
-          </Box>
-        </Box>
-        <Box
-          w="250px"
-          h="360px"
-          bg="bg-surface"
-          boxShadow={useColorModeValue('sm', 'sm-dark')}
-          borderRadius="lg"
-        >
-          <Box>
-            <Image
-              htmlWidth='250px'
-              htmlHeight='210px'
-              objectFit='cover'
-              src='/moonbird_001.png'
-              alt='Framed Print'
-            />
+              
+              </Center>
+
+            </Box>
           </Box>
           <Box
+            w="250px"
+            h="375px"
+            bg="bg-surface"
+            boxShadow={useColorModeValue('sm', 'sm-dark')}
+            borderRadius="lg"
           >
-            <Stack p="5" direction="row">
-              <Stack>
-                <Text
-                  h="50"
-                  maxWidth="200"
-                  maxHeight="50"
-                
-                >
-                  Proof Collective Moonbirds #956 
-
-                </Text>
-              </Stack>
-              <Stack>
-                <Image
-                htmlWidth='25px'
-                htmlHeight='25px'
+            <Box>
+              <Image
+                htmlWidth='250px'
+                htmlHeight='210px'
                 objectFit='cover'
-                src='/heart_001.png'
+                src='/ai_micro_saas_001.png'
                 alt='Framed Print'
-                />
+              />
+            </Box>
+            <Box
+            >
+              <Stack pl="4" pr="4" pt="1" pb="2" direction="row">
+                <Stack>
+                  <Text
+                    minWidth="185px"
+                    maxWidth="185px"
+                    minHeight="50"
+                    maxHeight="50"
+                    fontSize={14}
+                  >
+                    AI-Based Micro SaaS App for Sell $536 MRR
+
+                  </Text>
+                </Stack>
+                <Stack>
+                  <Image
+                  htmlWidth='25px'
+                  htmlHeight='25px'
+                  objectFit='cover'
+                  src='/heart_001.png'
+                  alt='Framed Print'
+                  />
+
+                </Stack>
 
               </Stack>
+              <Stack pl="4" pr="4" pb="2" direction="row">
+                <Stack>
+                  <Text
+                    pt="1"
+                    minWidth="135px"
+                    maxWidth="135px"
+                    fontSize={21}
+                    fontWeight="medium"
+                    color="muted"
+                    
+                  
+                  >
+                    $25,000 USD
+                  </Text>
+                </Stack>
+                <Stack>
+                <Stack>
+                  <Text
+                    color="muted"
+                    fontSize={11}
+                  
+                  >
+                    4,005.58 DOT
+                  </Text>
+                  <Text
+                    color="muted"
+                    fontSize={11}
+                  
+                  >
+                    19.27 ETH
+                  </Text>
+                </Stack>
 
-            </Stack>
-            <Center >
-              <Stack direction="row" justifyContent="space-between">
-                <Button variant="outline" width={100} color="#2B6CB0" borderColor={"#2B6CB0"} borderWidth="2px">Barter</Button>
-              <Button variant="primary" width={100}>Buy Now</Button>
-            </Stack>
+                </Stack>
+              </Stack>
+              <Center >
+                <Stack direction="row" justifyContent="space-between">
+                  <Button variant="outline" width={100} color="#2B6CB0" borderColor={"#2B6CB0"} borderWidth="2px">Barter</Button>
+                <Button variant="primary" width={100}>Buy Now</Button>
+              </Stack>
 
-            
-            </Center>
+              
+              </Center>
 
-          </Box>
-        </Box>
-        <Box
-          w="250px"
-          h="360px"
-          bg="bg-surface"
-          boxShadow={useColorModeValue('sm', 'sm-dark')}
-          borderRadius="lg"
-        >
-          <Box>
-            <Image
-              htmlWidth='250px'
-              htmlHeight='210'
-              objectFit='cover'
-              src='/ai_micro_saas_001.png'
-              alt='Framed Print'
-            />
+            </Box>
           </Box>
           <Box
+            w="250px"
+            h="375px"
+            bg="bg-surface"
+            boxShadow={useColorModeValue('sm', 'sm-dark')}
+            borderRadius="lg"
           >
-            <Stack p="5" direction="row">
-              <Stack>
-                <Text
-                  h="50"
-                  maxWidth="200"
-                  maxHeight="50"
-                
-                >
-                  AI-Based Micro SaaS App for Sell $536 MRR
-
-                </Text>
-              </Stack>
-              <Stack>
-                <Image
-                htmlWidth='25px'
-                htmlHeight='25px'
+            <Box>
+              <Image
+                htmlWidth='250px'
+                htmlHeight='210'
                 objectFit='cover'
-                src='/heart_001.png'
+                src='/used_led_monitor_001.png'
                 alt='Framed Print'
-                />
+              />
+            </Box>
+            <Box
+            >
+              <Stack pl="4" pr="4" pt="1" pb="2" direction="row">
+                <Stack>
+                  <Text
+                    minWidth="185px"
+                    maxWidth="185px"
+                    minHeight="50"
+                    maxHeight="50"
+                    fontSize={14}
+                  >
+                    Used LED Monitor 1920x1080 Free Shipping
+
+                  </Text>
+                </Stack>
+                <Stack>
+                  <Image
+                  htmlWidth='25px'
+                  htmlHeight='25px'
+                  objectFit='cover'
+                  src='/heart_001.png'
+                  alt='Framed Print'
+                  />
+
+                </Stack>
 
               </Stack>
+              <Stack pl="4" pr="4" pb="2" direction="row">
+                <Stack>
+                  <Text
+                    pt="1"
+                    minWidth="135px"
+                    maxWidth="135px"
+                    fontSize={21}
+                    fontWeight="medium"
+                    color="muted"
+                    
+                  
+                  >
+                    $700 USD
+                  </Text>
+                </Stack>
+                <Stack>
+                <Stack>
+                  <Text
+                    color="muted"
+                    fontSize={11}
+                  
+                  >
+                    107.94 DOT
+                  </Text>
+                  <Text
+                    color="muted"
+                    fontSize={11}
+                  
+                  >
+                    0.52 ETH
+                  </Text>
+                </Stack>
 
-            </Stack>
-            <Center >
-              <Stack direction="row" justifyContent="space-between">
-                <Button variant="outline" width={100} color="#2B6CB0" borderColor={"#2B6CB0"} borderWidth="2px">Barter</Button>
-              <Button variant="primary" width={100}>Buy Now</Button>
-            </Stack>
-
-            
-            </Center>
-
-          </Box>
-        </Box>
-        <Box
-          w="250px"
-          h="360px"
-          bg="bg-surface"
-          boxShadow={useColorModeValue('sm', 'sm-dark')}
-          borderRadius="lg"
-        >
-          <Box>
-            <Image
-              htmlWidth='250px'
-              htmlHeight='210'
-              objectFit='cover'
-              src='/used_led_monitor_001.png'
-              alt='Framed Print'
-            />
-          </Box>
-          <Box
-          >
-            <Stack p="5" direction="row">
-              <Stack>
-                <Text
-                  h="50"
-                  maxWidth="200"
-                  maxHeight="50"
-                
-                >
-                  Used LED Monitor 1920x1080 Free Shipping
-
-                </Text>
+                </Stack>
               </Stack>
-              <Stack>
-                <Image
-                htmlWidth='25px'
-                htmlHeight='25px'
-                objectFit='cover'
-                src='/heart_001.png'
-                alt='Framed Print'
-                />
-
+              <Center >
+                <Stack direction="row" justifyContent="space-between">
+                  <Button variant="outline" width={100} color="#2B6CB0" borderColor={"#2B6CB0"} borderWidth="2px">Barter</Button>
+                <Button variant="primary" width={100}>Buy Now</Button>
               </Stack>
 
-            </Stack>
-            <Center >
-              <Stack direction="row" justifyContent="space-between">
-                <Button variant="outline" width={100} color="#2B6CB0" borderColor={"#2B6CB0"} borderWidth="2px">Barter</Button>
-              <Button variant="primary" width={100}>Buy Now</Button>
-            </Stack>
+              
+              </Center>
 
-            
-            </Center>
-
+            </Box>
           </Box>
-        </Box>
-      </SimpleGrid>
+        </SimpleGrid>
       </Center>
     </Stack>
     {/* <Stack pb={6} spacing={{ base: '5', lg: '6' }}>
