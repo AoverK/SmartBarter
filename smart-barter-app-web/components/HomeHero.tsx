@@ -55,13 +55,36 @@ import * as Logos from './Brands'
             spacing={{ base: '12', lg: '24' }}
             fontSize="2xl"
           >
-            <Logos.Polkadot />
-            <Logos.Moonbeam />
-            <Logos.Stripe />
-            <Logos.NextJS />
-            <Logos.Figma />
-            <Logos.Notion />
-            
+            <Center>
+              <Box width={useBreakpointValue({ base: '40', lg: 'md' })}>
+                <Logos.Polkadot/>
+              </Box>
+            </Center>
+            <Center>
+              <Box width={useBreakpointValue({ base: '40', lg: 'md' })}>
+                <Logos.Moonbeam />
+              </Box>
+            </Center>
+            <Center>
+              <Box width={useBreakpointValue({ base: '40', lg: 'md' })}>
+                <Logos.Stripe />
+              </Box>
+            </Center>
+            <Center>
+              <Box width={useBreakpointValue({ base: '40', lg: 'md' })}>
+                <Logos.NextJS />
+              </Box>
+            </Center>
+            <Center>
+              <Box width={useBreakpointValue({ base: '40', lg: 'md' })}>
+                <Logos.Figma />
+              </Box>
+            </Center>
+            <Center>
+              <Box width={useBreakpointValue({ base: '40', lg: 'md' })}>
+              <Logos.Notion />
+              </Box>
+            </Center>
           </SimpleGrid>
         </Box>
       </Container>
